@@ -2,7 +2,7 @@ from textblob import TextBlob
 import csv
 import tweepy
 import unidecode
-
+# AUTHENTICATION (OAuth)
 f = open('auth.k','r')
 ak = f.readlines()
 f.close()
